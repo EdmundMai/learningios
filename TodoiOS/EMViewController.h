@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface EMViewController : UIViewController
+{
+    IBOutlet UITextField *myTextField;
+    IBOutlet UILabel *myLabel;
+}
+
+- (IBAction)clickMeButtonTapped;
 
 @end
